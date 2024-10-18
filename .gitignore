@@ -1,0 +1,21 @@
+.ignore/
+node_modules
+*.vsix
+*.tgz
+out/server
+tsconfig.tsbuildinfo
+vscode-ansible
+.nyc_output
+*.lcov
+.env
+.tox
+.python-version
+__pycache__
+.temp
+UNKNOWN.egg-info
+# Used on GHA to generate changelogs:
+change-notes-*.md
+
+# Ignored because we support multiple versions and switch between them
+.nvmrc
+.node-version
